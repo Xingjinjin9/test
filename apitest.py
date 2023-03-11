@@ -11,7 +11,7 @@ res=requests.post(url1,json=data)
 #print(res.text)
 #res1=json.loads(res.text)
 #print(res1)
-#11111
+#验证问题
 
 url2='https://dev-edu-hfsaas.jiangweikj.com/api-common/v1/sys/hf_decrypt'
 data=json.loads(res.text)
